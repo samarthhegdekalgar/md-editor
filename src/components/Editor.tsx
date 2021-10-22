@@ -6,7 +6,7 @@ export interface EditorProps {
 }
 
 const Editor: FC<EditorProps> = ({onInput}: EditorProps) => {
-    return <div contentEditable className="container" onInput={(e) => onInput(e.currentTarget.textContent)}></div>
+    return <textarea className="container" onChange={(e) => onInput(e.target.value)}></textarea>
 }
 
 export default Editor
