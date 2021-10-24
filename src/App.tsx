@@ -5,6 +5,7 @@ import Preview from './components/Preview'
 
 function App() {
   const [text, setText] = useState<string | null | undefined>()
+
   return (
     <div className="app">
       <Editor onInput={setText} />
