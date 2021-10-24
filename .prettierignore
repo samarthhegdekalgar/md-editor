@@ -1,0 +1,13 @@
+# Ignore yarn related files
+.pnp.js
+.yarn
+
+# Ignore build outputs
+dist
+
+# Ignore next.js folders
+.next
+out
+
+# Ignore newrelic script
+public/static/newrelic.js
